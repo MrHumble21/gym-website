@@ -14,10 +14,14 @@ function Navbar() {
       }}
       px="20px"
     >
-      <Link style={{textDecoration: "none"}} to="/">
-      <Typography  color="#FF2625" fontWeight="600" fontSize="28px">
-      Power Zone
-      </Typography>
+      <Link style={{ textDecoration: "none" }} to="/">
+        <Typography
+          sx={{ fontSize: { lg: "28px", xs: "18px" } }}
+          color="#FF2625"
+          fontWeight="600"
+        >
+          Power Zone
+        </Typography>
       </Link>
       <Stack
         direction="row"
