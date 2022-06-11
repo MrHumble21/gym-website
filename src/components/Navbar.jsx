@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Stack } from "@mui/material";
-import Logo from "../assets/images/Logo.png";
+import { Stack, Typography } from "@mui/material";
+import Logo from "../assets/images/Logo.jpg";
 function Navbar() {
   return (
     <Stack
@@ -14,12 +14,10 @@ function Navbar() {
       }}
       px="20px"
     >
-      <Link to="/">
-        <img
-          src={Logo}
-          alt="logo"
-          style={{ width: "48px", height: "48px", margin: "0px 20px" }}
-        />
+      <Link style={{textDecoration: "none"}} to="/">
+      <Typography  color="#FF2625" fontWeight="600" fontSize="28px">
+      Power Zone
+      </Typography>
       </Link>
       <Stack
         direction="row"
