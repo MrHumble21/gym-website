@@ -1,5 +1,9 @@
+
+
 body {
-  font-family: "Josefin Sans";
+  font-family: 'Gentium Plus', serif;
+  font-family: 'Josefin Sans', sans-serif;
+  
   background-color: #fffafb;
 }
 
@@ -7,6 +11,8 @@ body {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  font-family: 'Gentium Plus', serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 ::-webkit-scrollbar {
