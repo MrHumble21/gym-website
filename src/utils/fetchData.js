@@ -5,6 +5,18 @@ export const exerciseOptions = {
   },
 };
 
+
+
+// const options = {
+
+//   headers: {
+//     'X-RapidAPI-Key': '2a2bd31c69mshcff6f3044bcbae8p124e95jsndffac68be949',
+//     'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com'
+//   }
+// };
+
+
+
 export const youtubeOptions = {
   method: "GET",
   headers: {
